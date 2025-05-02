@@ -2014,6 +2014,7 @@ section,
 }
 
 #portfolio-text {
+  text-align: left;
   max-width: 700px;
   margin: 0 auto;
   padding:3px;
