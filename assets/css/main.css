@@ -2014,9 +2014,9 @@ section,
 }
 
 #portfolio-text {
-  text-align: justify;
   max-width: 700px;
   margin: 0 auto;
+  padding:3px;
   font-size: 18px;
   line-height: 1.8;
   color: #444;
