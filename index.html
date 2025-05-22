@@ -513,7 +513,7 @@
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web-gis">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-1.webp" loading="lazy" class="img-fluid" alt="" loading="lazy">
+                  <img src="assets/img/portfolio/portfolio-1.webp" loading="lazy" class="img-fluid" alt="">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
                       <a href="assets/img/portfolio/portfolio-1.webp" loading="lazy" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
@@ -531,8 +531,7 @@
                       <li>Limited access to some data based on user roles.</li>
                       <li>Provided tools for drawing directly on the map and exporting the results.</li>
                       <li>Improved municipal efficiency and helped reduce in-person traffic.</li>
-                      <li><strong> Technical stack:</strong> Django, PostgreSQL/PostGIS, Leaflet.js, JavaScript, HTML/CSS</li>
-
+                      <li><strong> Technical stack:</strong> Django, PostgreSQL/PostGIS, OpenLayers , JavaScript, HTML/CSS</li> <br>
                     </ul>
                   </div>
                 </div>
@@ -540,35 +539,46 @@
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web-gis">
-              <div class="portfolio-card">
-                <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-2.webp" loading="lazy" class="img-fluid" alt="" loading="lazy">
-                  <div class="portfolio-overlay">
-                    <div class="portfolio-actions">
-                      <a href="assets/img/portfolio/portfolio-2.webp" loading="lazy" class="glightbox preview-link" data-gallery="portfolio-gallery-graphics"><i class="bi bi-eye"></i></a>
-                      <!-- <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-content">
-                  <span class="category">Web GIS</span>
-                  <h3>Fault Monitoring System</h3>
-                  <div class="description">
-                    <ul>
-                      <li>Designed and implemented real-time fault monitoring system</li>
-                      <li>Developed anomaly detection with visual alerts on interactive maps</li>
-                      <li>Created automated warning system for dangerous faults</li>
-                      <li><strong>Tech Stack:</strong> Python, Django, Folium, JavaScript</li>
-                    </ul>
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/geofault.webp" loading="lazy" class="img-fluid" alt="GeoFault Screenshot">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-actions">
+                    <a href="assets/img/portfolio/geofault.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-motion">
+                      <i class="bi bi-eye"></i>
+                    </a>
+                    <!-- <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a> -->
                   </div>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+              <div class="portfolio-content">
+                <span class="category">Web GIS</span>
+                <h3>GeoFault: Real-Time Web GIS for Fault Monitoring & Analysis</h3>
+                <p>GeoFault is a Web GIS application developed as a freelance project for real-time monitoring and analysis of geological faults.</p>
+                <div class="description">
+                  <ul>
+                    <li>Interactive maps with fault anomaly visualization</li>
+                    <li>Real-time alert system with color-coded warnings</li>
+                    <li>Dynamic charts with time-based filters and adjustable parameters</li>
+                    <li>Multi-layer map support: satellite, topographic, and custom layers</li>
+                    <li>GIS drawing tools: points, lines, and polygons</li>
+                    <li>Fully responsive design for desktop and mobile</li>
+                    <li><strong>Tech Stack:</strong> Django (Python), Folium, Bokeh</li>
+                  </ul>
+                  <p>🎥 <a href="https://www.youtube.com/watch?v=hKaq3FDv_Hk" target="_blank" rel="noopener noreferrer">Watch Demo on YouTube</a></p>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
+
+
+            <!-- End Portfolio Item -->
 
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web-gis">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-3.webp" loading="lazy" class="img-fluid" alt="" loading="lazy">
+                  <img src="assets/img/portfolio/portfolio-3.webp" loading="lazy" class="img-fluid" alt="">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
                       <a href="assets/img/portfolio/portfolio-3.webp" loading="lazy" class="glightbox preview-link" data-gallery="portfolio-gallery-motion"><i class="bi bi-eye"></i></a>
@@ -583,7 +593,7 @@
                   <div class="description">
                     <ul>
                       <li>Recommended tourist attractions based on user preferences and contextual factors such as time, location, and weather conditions.</li>
-                      <li>Used a case-based reasoning approach to suggest attractions from ten interest categories (e.g., recreational, natural, historical, cultural).</li>
+                      <li>Used case-based reasoning to suggest attractions from ten interest categories (e.g., recreational, natural, historical, cultural).</li>
                       <li>Ranked and recommended the most relevant attractions and displayed the shortest route between them.</li>
                       <li>Displayed clustered locations of additional services—such as hotels, parking lots, and cinemas—on the map.</li>
                       <li><strong>Tech Stack:</strong> Python, Django, PostgreSQL, Leaflet.js, JavaScript, HTML/CSS</li>
@@ -593,10 +603,48 @@
               </div>
             </div><!-- End Portfolio Item -->
 
+            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web-gis">
+            <div class="portfolio-card">
+              <div class="portfolio-image">
+                <img src="assets/img/portfolio/basic_web_gis.webp" loading="lazy" class="img-fluid" alt="">
+                <div class="portfolio-overlay">
+                  <div class="portfolio-actions">
+                    <a href="assets/img/portfolio/basic_web_gis.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-motion"><i class="bi bi-eye"></i></a>
+                    <!-- <a href="portfolio-details.html" class="details-link"><i class="bi bi-arrow-right"></i></a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <span class="category">Web GIS</span>
+                <h3>Open-Source Web GIS Application (Basic Prototype)</h3>
+                <p>Built a basic, extensible Web GIS demo for beginners, with full source code available on GitHub.</p>
+                <div class="description">
+                  <ul>
+                    <li>Visualized Iran’s provincial boundaries via WMS from GeoServer and overlaid major cities (by area) as GeoJSON point features.</li>
+                    <li>Integrated multiple base maps (OpenStreetMap, topographic, satellite) with dynamic layer switching.</li>
+                    <li>Enabled interactive map tools for drawing, editing, and visualizing spatial features with essential cartographic components for intuitive user interaction.</li>
+                    <li><strong>Tech Stack:</strong> Python, Django, GeoServer, Leaflet.js, JavaScript, HTML/CSS</li>
+                  </ul>
+                  
+                  <p>🎥 <a href="https://youtu.be/Evt1cmX8OIw?si=6S5OcpFFzxW7zJ9c" target="_blank" rel="noopener noreferrer">
+                    Watch Demo on YouTube
+                  </a></p>
+
+                  <p style="margin-top: 0.5rem;"><strong>Source code on GitHub:</strong>
+                  <a href="https://github.com/KeyhanGIS/iran-provinces-webgis" target="_blank">
+                    github.com/keyhangis
+                  </a></p> 
+                
+
+                </div>
+              </div>
+            </div>
+          </div><!-- End Portfolio Item -->
+
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-gis-analyst">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-4.webp" loading="lazy" class="img-fluid" alt="" loading="lazy">
+                  <img src="assets/img/portfolio/portfolio-4.webp" loading="lazy" class="img-fluid" alt="">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
                       <a href="assets/img/portfolio/portfolio-4.webp" loading="lazy" class="glightbox preview-link" data-gallery="portfolio-gallery-brand"><i class="bi bi-eye"></i></a>
@@ -623,7 +671,7 @@
             <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-gis-analyst">
               <div class="portfolio-card">
                 <div class="portfolio-image">
-                  <img src="assets/img/portfolio/portfolio-5.webp" loading="lazy" class="img-fluid" alt="" loading="lazy">
+                  <img src="assets/img/portfolio/portfolio-5.webp" loading="lazy" class="img-fluid" alt="">
                   <div class="portfolio-overlay">
                     <div class="portfolio-actions">
                       <a href="assets/img/portfolio/portfolio-5.webp" loading="lazy" class="glightbox preview-link" data-gallery="portfolio-gallery-web"><i class="bi bi-eye"></i></a>
@@ -639,7 +687,7 @@
                       <li>Performed GIS-based spatial analysis to locate optimal areas for urban physical development.</li>
                       <li>Used fuzzy logic to evaluate and combine multiple spatial layers such as slope, fault proximity, and land characteristics.</li>
                       <li> Performed overlay analysis in ArcGIS to generate a suitability map for urban expansion.</li>
-                      <li><strong>Tech Stack:</strong> ArcGIS, Fuzzy Logic, Spatial Analysis, Urban Planning</li>
+                      <li><strong>Tech Stack:</strong> ArcGIS, Fuzzy Logic, Spatial Analysis, Urban Planning</li> <br><br><br>
                     </ul>
                   </div>
                 </div>
