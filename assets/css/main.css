@@ -1105,11 +1105,17 @@ section,
 
 /* # paper Section */
 
-.article-title {
+.article-title, .award-title {
   white-space: normal !important;
   word-break: break-word;
   overflow-wrap: break-word;
   max-width: 100%;
+  hyphens: auto;
+  font-weight: normal !important;
+
+}
+.award-title{
+  font-weight: 600 !important;
 }
 .paper-link {
   color: inherit;
